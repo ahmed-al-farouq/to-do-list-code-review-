@@ -1,0 +1,31 @@
+{
+  "name": "to-do-list-code-review-",
+  "description": "A simple app to add your daily tasks. ![screenshot](./src/img/screenshot.png) You can add and remove tasks or mark tasks that you already did.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmed-al-farouq/to-do-list-code-review-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmed-al-farouq/to-do-list-code-review-/issues"
+  },
+  "homepage": "https://github.com/ahmed-al-farouq/to-do-list-code-review-#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.3.2"
+  },
+  "devDependencies": {
+    "css-loader": "^6.3.0",
+    "html-loader": "^2.1.2",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.55.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.0"
+  }
+}
