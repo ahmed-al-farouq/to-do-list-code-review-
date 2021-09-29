@@ -4,6 +4,8 @@ import {
   add, removeAllCompleted, edit, remove,
 } from './js/addRemove.js';
 
+const mainListContainer = document.getElementById('list');
+
 class List {
   constructor() {
     const newList = JSON.parse(localStorage.getItem('newList'));
@@ -71,6 +73,5 @@ class List {
   }
 }
 
-const mainListContainer = document.getElementById('list');
 const list = new List();
 list.createItems(mainListContainer);
